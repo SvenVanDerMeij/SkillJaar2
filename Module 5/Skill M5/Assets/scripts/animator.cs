@@ -44,7 +44,7 @@ public class animator : MonoBehaviour
             animate.SetTrigger("runStop");
             animate.ResetTrigger("runStart");
         }
-        transform.position = transform.position += new Vector3(speed * Time.deltaTime, 0,0 );
+         transform.position = transform.position += new Vector3(speed * Time.deltaTime, speed,0 );
         if (Input.GetKeyDown(KeyCode.Space))
         {
             started = true;

@@ -24,7 +24,7 @@ public class timer : MonoBehaviour
         scoreField.text = "" + Mathf.RoundToInt(time);
         if (animator.started == true && animator.won == false)
         {
-            time -= 1 * Time.deltaTime;
+                time -= 1 * Time.deltaTime;
         } else if (animator.started == true && animator.won == true)
         {
             time += 0;
